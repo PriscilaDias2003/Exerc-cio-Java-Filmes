@@ -1,0 +1,19 @@
+//Classe Filmes
+
+public class Filmes {
+	
+	String titulo;
+	double duracaoEmMinutos;
+	
+	double duracaoEmHoras() {
+		
+		return duracaoEmMinutos / 60;
+		
+	}
+	
+	String exibeNome() {
+		
+		return titulo;
+		
+	} 
+}
